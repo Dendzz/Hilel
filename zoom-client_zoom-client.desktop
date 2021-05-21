@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-SnapInstanceName=zoom-client
+Name=Zoom
+Comment=Zoom Video Conference
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/zoom-client_zoom-client.desktop /snap/bin/zoom-client %U
+Icon=/snap/zoom-client/143/usr/share/pixmaps/Zoom.png
+Terminal=false
+Type=Application
+Categories=Network;Application;
+StartupWMClass=zoom
+MimeType=x-scheme-handler/zoommtg;x-scheme-handler/zoomus;x-scheme-handler/tel;x-scheme-handler/callto;x-scheme-handler/zoomphonecall;application/x-zoom
+Name[en_US]=Zoom
+
